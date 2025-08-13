@@ -25,7 +25,7 @@ public class Student {
         this.age = newAge;
     }
 
-    //Сеттер для поля name
+    // Сеттер для поля name
     void setName (String newName) {
         this.name = newName;
     }
