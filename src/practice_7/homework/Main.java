@@ -30,5 +30,21 @@ public class Main {
 
         longestString.printLongestStringFromList();
 
+        SumNumbers sumNumbers = new SumNumbers();
+        sumNumbers.addNumbersToList(2);
+        sumNumbers.addNumbersToList(3);
+        sumNumbers.addNumbersToList(1);
+        sumNumbers.addNumbersToList(4);
+
+        sumNumbers.printSumNumbers();
+
+        MaxNumber maxNumber = new MaxNumber();
+        maxNumber.addNumberToList(1);
+        maxNumber.addNumberToList(2);
+        maxNumber.addNumberToList(3);
+        maxNumber.addNumberToList(4);
+        maxNumber.addNumberToList(5);
+        maxNumber.printMaxNumber();
+
     }
 }
