@@ -8,5 +8,13 @@ public class Main {
         addStrings.addStringToList("sssererer");
 
         addStrings.printAllElementsFromList();
+
+        QueueWithTasks queue = new QueueWithTasks();
+
+        queue.addTaskToQueue("firstTask");
+        queue.addTaskToQueue("secondTask");
+        queue.addTaskToQueue("thirdTask");
+
+        queue.processWithTasks();
     }
 }
