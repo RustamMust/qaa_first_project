@@ -22,6 +22,13 @@ public class Main {
 
         arrayListEvenNumber.printAllEvenNumbers();
 
+        LongestString longestString = new LongestString();
+        longestString.addStringToList("a");
+        longestString.addStringToList("ab");
+        longestString.addStringToList("abc");
+        longestString.addStringToList("abcd");
+
+        longestString.printLongestStringFromList();
 
     }
 }
