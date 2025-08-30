@@ -16,5 +16,21 @@ public class Main {
         queue.addTaskToQueue("thirdTask");
 
         queue.processWithTasks();
+
+        FirstLastInList firstLastInList = new FirstLastInList();
+        firstLastInList.addStringToList("fistString");
+        firstLastInList.addStringToList("secondString");
+        firstLastInList.addStringToList("thirdString");
+        firstLastInList.addStringToList("fourthString");
+
+        firstLastInList.printFirstAndLastElement();
+
+        SumNumbers sumNumbers = new SumNumbers();
+        sumNumbers.addNumbersToList(1);
+        sumNumbers.addNumbersToList(2);
+        sumNumbers.addNumbersToList(3);
+        sumNumbers.addNumbersToList(10);
+
+        sumNumbers.printSumNumbers();
     }
 }
