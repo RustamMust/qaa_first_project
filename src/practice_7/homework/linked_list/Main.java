@@ -32,5 +32,15 @@ public class Main {
         sumNumbers.addNumbersToList(10);
 
         sumNumbers.printSumNumbers();
+
+        IteratorTask iteratorTask = new IteratorTask();
+        iteratorTask.addStringToList("first");
+        iteratorTask.addStringToList("second");
+        iteratorTask.addStringToList("third");
+        iteratorTask.addStringToList("more");
+        iteratorTask.addStringToList("task");
+        iteratorTask.addStringToList("end");
+
+        iteratorTask.goThroughElements();
     }
 }
