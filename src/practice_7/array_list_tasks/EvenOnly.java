@@ -30,4 +30,17 @@ public class EvenOnly {
         }
         System.out.println();
     }
+
+    public String findStringWithMaxLength(ArrayList<String> strings) {
+        Integer max = 0;
+        String maxString = "";
+
+       for (String str : strings) {
+           if (str.length() > max) {
+               max = str.length();
+               maxString = str;
+           }
+       }
+       return maxString;
+    }
 }
