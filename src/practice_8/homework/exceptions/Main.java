@@ -1,4 +1,4 @@
-package practice_8.homework;
+package practice_8.homework.exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
