@@ -53,9 +53,14 @@ public class Main {
             System.out.println(num);
         }
 
+        // 6. Обобщённый интерфейс
+        SingleContainer<String> stringContainer = new SingleContainer<>();
+        stringContainer.add("Привет");
+        System.out.println(stringContainer.get());
 
-
-
+        SingleContainer<Integer> intContainer = new SingleContainer<>();
+        intContainer.add(42);
+        System.out.println(intContainer.get());
 
     }
 
