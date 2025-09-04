@@ -18,6 +18,20 @@ public class Main {
         printList(strings);
         printList(numbers);
 
+        NumberBox<Integer> integerNumberBox = new NumberBox<>();
+        integerNumberBox.addNumber(1);
+        integerNumberBox.addNumber(2);
+        integerNumberBox.addNumber(3);
+
+        System.out.println("Sum of numbers: " + integerNumberBox.getSum());
+
+        NumberBox<Double> doubleNumberBox = new NumberBox<>();
+        doubleNumberBox.addNumber(1.5);
+        doubleNumberBox.addNumber(2.5);
+        doubleNumberBox.addNumber(3.5);
+        doubleNumberBox.addNumber(4.1);
+
+        System.out.println("Sum of numbers: " + doubleNumberBox.getSum());
 
     }
 
