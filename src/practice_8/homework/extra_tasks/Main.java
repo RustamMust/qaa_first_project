@@ -2,6 +2,7 @@ package practice_8.homework.extra_tasks;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -62,6 +63,24 @@ public class Main {
         intContainer.add(42);
         System.out.println(intContainer.get());
 
+        // 7. Коллекция с обобщёнными типами
+        Map<String, Integer> map1 = Map.of(
+                "Один", 1,
+                "Два", 2,
+                "Три", 3
+        );
+        System.out.println("Map<String, Integer>:");
+        printMap(map1);
+
+
+        Map<Integer, String> map2 = Map.of(
+                1, "Apple",
+                2, "Banana",
+                3, "Cherry"
+        );
+        System.out.println("\nMap<Integer, String>:");
+        printMap(map2);
+
     }
 
     public static <T> void printList(List<T> elements) {
@@ -83,5 +102,11 @@ public class Main {
         list.add(10);
         list.add(20);
         list.add(30);
+    }
+
+    public static <K, V> void printMap(Map<K, V> map) {
+        for (Map.Entry<K, V> entry : map.entrySet()) {
+            System.out.println("Ключ: " + entry.getKey() + ", Значение: " + entry.getValue());
+        }
     }
 }
