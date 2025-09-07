@@ -1,6 +1,6 @@
 package practice_9.funcinterfaces;
 
-public class Main {
+public class MainForMathOperations {
     public static void main(String[] args) {
         MathOperations add = (x, y) -> x + y;
         MathOperations subtract = (x, y) -> x - y;
