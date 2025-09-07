@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class GroupByGender {
-    // Cписок строк с именами и полом "John:M", "Sarah:F", "Sasha:F", "Nick:M"
+    // Список строк с именами и полом "John:M", "Sarah:F", "Sasha:F", "Nick:M"
     // Сгруппировать по полу в мапу Map<String, List<String>>
     //                                  пол : список имен
 
